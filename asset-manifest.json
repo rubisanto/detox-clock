@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/detox-clock/static/css/main.8d056dea.css",
+    "main.js": "/detox-clock/static/js/main.337ef4eb.js",
+    "index.html": "/detox-clock/index.html",
+    "main.8d056dea.css.map": "/detox-clock/static/css/main.8d056dea.css.map",
+    "main.337ef4eb.js.map": "/detox-clock/static/js/main.337ef4eb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d056dea.css",
+    "static/js/main.337ef4eb.js"
+  ]
+}
