@@ -1,63 +1,74 @@
-# My React App
+# Detox Clock
 
-Ce projet est une application front-end construite avec React. Il sert de point de départ pour le développement d'applications web modernes.
+Ce projet est une application React qui affiche un compte à rebours jusqu'à une date cible, avec un message indiquant "Pas de réseaux sociaux avant".
 
-## Structure du projet
+## Prérequis
 
-```
-my-react-app
-├── public
-│   ├── index.html        # Point d'entrée HTML de l'application
-│   └── manifest.json     # Métadonnées de l'application
-├── src
-│   ├── components
-│   │   └── App.js        # Composant principal de l'application
-│   ├── index.js          # Point d'entrée JavaScript de l'application
-│   └── styles
-│       └── App.css       # Styles CSS pour le composant App
-├── package.json          # Configuration npm du projet
-└── README.md             # Documentation du projet
-```
+- Node.js
+- npm
 
 ## Installation
 
 1. Clonez le dépôt :
-   ```
-   git clone <URL_DU_DEPOT>
+
+   ```sh
+   git clone https://github.com/votre-utilisateur/detox-clock.git
+   cd detox-clock
    ```
 
-2. Accédez au répertoire du projet :
-   ```
-   cd my-react-app
-   ```
-
-3. Installez les dépendances :
-   ```
+2. Installez les dépendances :
+   ```sh
    npm install
    ```
 
-## Exécution
+## Utilisation
 
-Pour démarrer l'application en mode développement, utilisez la commande suivante :
-```
+Pour démarrer l'application en mode développement :
+
+```sh
 npm start
 ```
 
 L'application sera accessible à l'adresse `http://localhost:3000`.
 
-## Construction
+## Tests
 
-Pour créer une version optimisée de l'application pour la production, utilisez :
+Pour exécuter les tests avec Jest :
+
+```sh
+npm test
 ```
-npm run build
+
+## Structure du projet
+
+```
+detox-clock/
+├── node_modules/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── App.js
+│   │   ├── App.test.js
+│   │   ├── Counter.js
+│   │   ├── Counter.test.js
+│   │   └── Message.js
+│   ├── styles/
+│   │   └── App.css
+│   ├── index.js
+│   └── index.css
+├── .gitignore
+├── package.json
+└── README.md
 ```
 
-Les fichiers construits seront placés dans le répertoire `build`.
+## Personnalisation
 
-## Auteurs
+Vous pouvez personnaliser le style de l'application en modifiant le fichier CSS situé dans `src/styles/App.css`.
 
-- Votre Nom
+## Contribuer
 
-## License
+Les contributions sont les bienvenues ! Veuillez soumettre une pull request pour toute amélioration ou correction de bug.
 
-Ce projet est sous licence MIT.
+## Licence
+
+Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
