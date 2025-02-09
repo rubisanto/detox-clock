@@ -33,3 +33,6 @@ jspm_packages/
 # Windows
 Thumbs.db
 ehthumbs.db
+
+# Build directory
+build/

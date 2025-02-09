@@ -39,6 +39,16 @@ Pour exécuter les tests avec Jest :
 npm test
 ```
 
+## Déploiement sur GitHub Pages
+
+Pour déployer l'application sur GitHub Pages, exécutez la commande suivante :
+
+```sh
+npm run deploy
+```
+
+L'application sera déployée à l'adresse `https://rubisanto.github.io/detox-clock`.
+
 ## Structure du projet
 
 ```
